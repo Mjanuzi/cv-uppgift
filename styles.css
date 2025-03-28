@@ -80,6 +80,23 @@ body {
   font-size: 36px;
   font-style: italic;
 }
+.skill-icons{
+    list-style: none;
+    padding: 0;
+    margin:30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+}
+.skill-icons img{
+    width: 60px;
+    height: auto;
+    transition: transform 0.3s;
+}
+.skill-icons img:hover{
+    transform: scale(1.1);
+}
 .navbar {
   display: flex;
   justify-content: center;

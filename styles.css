@@ -80,22 +80,43 @@ body {
   font-size: 36px;
   font-style: italic;
 }
-.skill-icons{
-    list-style: none;
-    padding: 0;
-    margin:30px auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap:20px;
+.skill-icons {
+  list-style: none;
+  padding: 0;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
-.skill-icons img{
-    width: 50px;
-    height: auto;
-    transition: transform 0.3s;
+.skill-icons img {
+  width: 50px;
+  height: auto;
+  transition: transform 0.3s;
 }
-.skill-icons img:hover{
-    transform: scale(1.1);
+.skill-icons img:hover {
+  transform: scale(1.1);
+}
+.contact-design {
+  background-color: #f4f4f4;
+  padding: 40px 30px;
+  border-radius: 20px;
+  margin: 60px auto 40px auto;
+  color: #000000;
+  justify-content: center;
+  max-width: 600px;
+  text-align: center;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+}
+.contact-form {
+  max-width: 600px;
+  text-align: center;
+}
+.contact-me {
+  text-align: center;
 }
 .navbar {
   display: flex;

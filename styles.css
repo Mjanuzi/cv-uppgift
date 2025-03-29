@@ -121,6 +121,7 @@ body {
 .navbar {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: black;
   padding: 25px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -175,6 +176,8 @@ body {
 .features {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
   padding: 20px;
 }
 .feature-link {

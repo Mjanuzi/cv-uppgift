@@ -180,20 +180,26 @@ body {
 .feature-link {
   margin: 20px;
   padding: 30px;
-  background-color: white;
+  background:linear-gradient(145deg, #000000, #111111);
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 15px rgba(247, 245, 245, 0.644);
   text-decoration: none;
-  color: black;
-  transition: transform 0.2s;
+  color: #f4f4f4;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
+  cursor: pointer;
 }
 .feature-link:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  color: #007bff;
 }
 .feature-link p {
   color: #0909096c;
+}
+.feature p{
+    justify-content: center;
+    text-align: center;
+    color: #f4f4f4;
 }
 footer {
   background-color: black;

@@ -99,18 +99,25 @@ body {
 }
 .contact-design {
   background-color: #f4f4f4;
-  padding: 40px 30px;
+  padding: 50px;
   border-radius: 20px;
-  margin: 60px auto 40px auto;
+  margin: 60px auto;
   color: #000000;
   justify-content: center;
   max-width: 600px;
   text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 .contact-form input,
 .contact-form textarea {
   width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  outline: none;
 }
+
 .contact-form {
   max-width: 600px;
   text-align: center;

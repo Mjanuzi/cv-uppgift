@@ -129,7 +129,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.485);
   padding: 25px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   position: sticky;
@@ -191,7 +191,7 @@ body {
 .feature-link {
   margin: 20px;
   padding: 30px;
-  background:linear-gradient(145deg, #000000, #111111);
+  background-color: rgba(0, 0, 0, 0.485);
   border-radius: 10px;
   box-shadow: 0 0px 15px rgba(247, 245, 245, 0.644);
   text-decoration: none;
@@ -213,7 +213,7 @@ body {
     color: #f4f4f4;
 }
 footer {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.485);
   color: white;
   text-align: center;
   padding: 20px;

@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
 body {
   font-family: verdana, Geneva, Tahoma, sans-serif;
@@ -132,8 +137,10 @@ body {
   background-color: rgba(0, 0, 0, 0.485);
   padding: 25px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  position: sticky;
+  position: absolute;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 10;
 }
 
@@ -240,4 +247,5 @@ cursor: pointer;
     color: #0909096c;
 
 }
+
 

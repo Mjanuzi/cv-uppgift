@@ -29,7 +29,7 @@ main {
 header {
   padding: 100px 20px;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 header h1 {
   font-family: "Boldonse", system-ui;
@@ -58,7 +58,7 @@ header p {
 }
 
 .navbar a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 18px;
   margin: 0 20px;
@@ -73,12 +73,12 @@ header p {
   transform: translateX(-50%);
   width: 0;
   height: 2px;
-  background-color: #007bff;
+  background-color: #ffffff;
   transition: width 0.3s ease;
 }
 
 .navbar a:hover {
-  color: #007bff;
+  color: #ffffff;
 }
 
 .navbar a:hover::after {
@@ -86,11 +86,12 @@ header p {
 }
 
 .background-pic {
-  background-image: url(skypic.jpg);
+  background-image: url(bakgrund1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  
 }
 .contact-button {
   display: inline-block;
@@ -104,7 +105,7 @@ header p {
   text-decoration: none;
 }
 .contact-button:hover {
-  background-color: #007bffac;
+  background-color: #034e9dac;
   transform: scale(1.05);
 }
 
@@ -119,11 +120,11 @@ header p {
 .feature-link {
   margin: 20px;
   padding: 30px;
-  background-color: rgba(0, 0, 0, 0.485);
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
   box-shadow: 0 0px 15px rgba(247, 245, 245, 0.644);
   text-decoration: none;
-  color: #f4f4f4;
+  color: #ffffff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
   cursor: pointer;
@@ -151,7 +152,7 @@ footer {
 
 /*about page*/
 .about-background {
-  background-image: url(skypic.jpg);
+  background-image: url(bakgrund1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -235,6 +236,15 @@ margin-bottom: 3rem;
 }
 .linkedin-link a:hover{
   color:#03548f;
+}
+.footer-about{
+  background-image: url(bakgrund1.jpg);
+  background-position: bottom;
+  background-color: rgba(0, 0, 0, 0.485);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
 }
 
 /*Contact page*/

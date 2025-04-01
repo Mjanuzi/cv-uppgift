@@ -222,6 +222,20 @@ margin-bottom: 3rem;
 .skill-icons img:hover {
   transform: scale(1.1);
 }
+.linkedin-link a{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  justify-content: center;
+  color: #007bff;
+}
+.linkedin-link a:hover{
+  color:#03548f;
+}
 
 /*Contact page*/
 .contact-design {

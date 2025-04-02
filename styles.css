@@ -14,6 +14,7 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   height: 100%;
+  
 }
 body {
   font-family: "Segoe UI", sans-serif;
@@ -21,6 +22,11 @@ body {
   font-size: 18px;
   display: flex;
   flex-direction: column;
+  background-image: url('bakgrund1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 main {
   flex: 1;
@@ -65,6 +71,7 @@ header p {
   font-size: 18px;
   margin: 0 20px;
   position: relative;
+  color: white;
   transition: color 0.3 ease;
 }
 .navbar a::after {
@@ -85,6 +92,12 @@ header p {
 
 .navbar a:hover::after {
   width: 100%;
+}
+.active{
+  padding: 10px;
+  background-color: rgba(74, 71, 71, 0.358);
+  color: white;
+  border-radius: 10px;
 }
 
 .background-pic {
@@ -142,6 +155,10 @@ header p {
   text-align: center;
   color: #f4f4f4;
 }
+.content{
+  background-color: #f4f4f4e7;
+  padding: 40px;
+}
 
 footer {
   background-color: rgba(0, 0, 0, 0.485);
@@ -152,12 +169,12 @@ footer {
 }
 
 /*about page*/
-.about-background {
+/*.about-background {
   background-image: url(bakgrund1.jpg);
   background-size: cover;
   background-position: center 35%;
   background-repeat: no-repeat;
-}
+}*/
 .profile-pic {
   display: flex;
   justify-content: center;
@@ -239,8 +256,8 @@ margin-bottom: 3rem;
   color:#03548f;
 }
 .footer-about{
-  background-image: url(bakgrund1.jpg);
-  background-position: bottom;
+  //background-image: url(bakgrund1.jpg);
+  //background-position: bottom;
   background-color: rgba(0, 0, 0, 0.485);
   color: white;
   text-align: center;

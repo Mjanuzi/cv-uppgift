@@ -14,7 +14,6 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   height: 100%;
-  
 }
 body {
   font-family: "Segoe UI", sans-serif;
@@ -22,7 +21,7 @@ body {
   font-size: 18px;
   display: flex;
   flex-direction: column;
-  background-image: url('bakgrund1.jpg');
+  background-image: url("bakgrund1.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -41,7 +40,7 @@ header h1 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 60px;
   font-weight: 400;
-  font-style:normal;
+  font-style: normal;
   letter-spacing: 1px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
@@ -93,7 +92,7 @@ header p {
 .navbar a:hover::after {
   width: 100%;
 }
-.active{
+.active {
   padding: 10px;
   background-color: rgba(74, 71, 71, 0.358);
   color: white;
@@ -132,6 +131,7 @@ header p {
   margin-bottom: 190px;
 }
 .feature-link {
+  width: 200px;
   margin: 20px;
   padding: 30px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -155,9 +155,13 @@ header p {
   text-align: center;
   color: #f4f4f4;
 }
-.content{
+.content {
   background-color: #f4f4f4e7;
   padding: 40px;
+  -webkit-box-shadow: 1px -5px 35px -10px rgba(0, 0, 0, 0.91);
+  -moz-box-shadow: 1px -5px 35px -10px rgba(0, 0, 0, 0.91);
+  box-shadow: 1px -5px 35px -10px rgba(0, 0, 0, 0.91);
+  border-radius: 30px;
 }
 
 footer {
@@ -187,8 +191,8 @@ footer {
   object-fit: cover;
   box-shadow: 0 4px 12px;
 }
-.margin-name{
-margin-bottom: 3rem;
+.margin-name {
+  margin-bottom: 3rem;
 }
 .about-text {
   display: grid;
@@ -241,7 +245,7 @@ margin-bottom: 3rem;
 .skill-icons img:hover {
   transform: scale(1.1);
 }
-.linkedin-link a{
+.linkedin-link a {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -252,18 +256,10 @@ margin-bottom: 3rem;
   justify-content: center;
   color: #007bff;
 }
-.linkedin-link a:hover{
-  color:#03548f;
+.linkedin-link a:hover {
+  color: #03548f;
 }
-.footer-about{
-  //background-image: url(bakgrund1.jpg);
-  //background-position: bottom;
-  background-color: rgba(0, 0, 0, 0.485);
-  color: white;
-  text-align: center;
-  padding: 20px;
-  width: 100%;
-}
+
 
 /*Contact page*/
 .contact-design {
@@ -294,8 +290,9 @@ margin-bottom: 3rem;
 .contact-me {
   text-align: center;
 }
-
+/*Projects*/
 .project-link {
+  width: 200px;
   margin: 20px;
   padding: 30px;
   background-color: #f4f4f4;
@@ -314,55 +311,61 @@ margin-bottom: 3rem;
 .project-link p {
   color: #0909096c;
 }
-/*Projects*/
-.margin-text{
+
+.margin-text {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-
-
-
-
+.projects-feature{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
 
 /*Iphone 14 Pro Max*/
-@media (max-width: 430px){
-  header h1{
+@media (max-width: 430px) {
+  header h1 {
     font-size: 43px;
   }
-  header p{
+  header p {
     font-size: 1rem;
   }
-  .navbar a{
+  .navbar a {
     font-size: 16px;
     margin: 0 10px;
   }
-  .contact-button{
+  .contact-button {
     padding: 10px 20px;
   }
-  .feature-link{
+  .feature-link {
     padding: 20px;
     font-size: 18px;
   }
-  h1,h2,h3{
+  h1,
+  h2,
+  h3 {
     font-size: 22px;
   }
-  .presentation{
+  .presentation {
     font-size: 24px;
   }
-  .profile-img{
+  .profile-img {
     width: 120px;
     height: 120px;
   }
-  .about-text{
+  .about-text {
     padding: 15px;
     font-size: 16px;
   }
-  .skill-icons img{
+  .skill-icons img {
     width: 40px;
   }
-  footer,.footer-about{
+  footer,
+  .footer-about {
     padding: 15px;
     font-size: 14px;
   }
-  
 }

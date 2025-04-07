@@ -171,14 +171,6 @@ footer {
   padding: 20px;
   width: 100%;
 }
-
-/*about page*/
-/*.about-background {
-  background-image: url(bakgrund1.jpg);
-  background-size: cover;
-  background-position: center 35%;
-  background-repeat: no-repeat;
-}*/
 .profile-pic {
   display: flex;
   justify-content: center;
@@ -273,6 +265,17 @@ footer {
   text-align: center;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
+.message-on-submit{
+  background-color: #f4f4f4;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 60px auto;
+  color: #000000;
+  justify-content: center;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
 .contact-form input,
 .contact-form textarea {
   width: 100%;
@@ -281,6 +284,32 @@ footer {
   margin-bottom: 20px;
   font-size: 16px;
   outline: none;
+}
+label{
+  margin-bottom:5px;
+  font-weight: bold;
+  display: block;
+}
+input, textarea{
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+button{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: backround-color 0.3s;
+
+}
+button:hover{
+  background-color: #4a6077;
+  transform: scale(1.05);
 }
 
 .contact-form {

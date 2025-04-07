@@ -9,6 +9,10 @@
 
   </head>
   <body>
+
+    <script src="script.js"></script>
+
+
     <div class="navbar">
       <a class="active" href="index.html" class="home">Home</a>
       <a class="active" href="about.html" class="about">About</a>
@@ -18,30 +22,39 @@
     <header class="about-background">
       <h1>Contact Formula</h1>
     </header>
+
     <main>
       <article>
-        <section class="contact-design">
+        <section class="contact-design"> <!-- class="contact-design" -->
           <h2 class="paragraph-line">Contact Me</h2>
-          <form class="contact-form">
-            <div>
+          <div class="contact-form">
+          <form id="userForm">
+
+            <div class="form-group">
               <label for="name">Name</label>
-              <input type="text" name="name" required placeholder="Type in your name" />
+              <input type="text" id="name" name="name" required placeholder="Type in your name" />
             </div>
-            <div>
+            <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" name="email" required placeholder="Type in your email adress">
+                <input type="email" id="email" name="email" required placeholder="Type in your email adress">
             </div>
-            <div>
+            <div class="form-group">
                 <label for="message">Message</label>
-                <textarea rows="5" name="message" required placeholder="..."></textarea>
+                <textarea rows="5" id="message" name="message" required placeholder="..."></textarea>
             </div>
-            <button class="contact-button" type="Submit">Submit</button>
+
+            <div>
+              <button type="submit" id="submitBtn">Submit</button>
+            </div>
+            
             
           </form>
+        
+        </div>
         </section>
-        <section class="contact-design">
+        <section class="message-on-submit" id="messageOnSubmit">
             <h3 class="paragraph-line">Contact Information</h3>
-            <p>Thanks you for your message!</p>
+            <p>Thank you for your message!</p>
         </section>
       </article>
     </main>

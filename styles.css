@@ -373,6 +373,10 @@ button:hover{
     padding: 20px;
     font-size: 18px;
   }
+  article{
+    padding: 0px 15px;
+  }
+
   h1,
   h2,
   h3 {

@@ -14,7 +14,7 @@ https://blog.hubspot.com/website/html-projects-for-beginners
 https://dev.to/webdeasy/top-20-css-buttons-animations-f41 
 
 ### (Använde w3schools för det mesta i min uppgift, har inte alla länkar till allt jag kollat på men jag började lägga in några i början)
-###(Lista)
+### (Lista)
 
 https://www.w3schools.com/css/css_list.asp 
 ### (Hoover)

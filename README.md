@@ -6,7 +6,7 @@ I detta projekt har jag byggt en personlig portfoliohemsida med målet att ge be
 
 ### Home
 Förstasidan är som en introduktion med mitt namn och ett välkomnande meddelande. Här presenteras två större ikoner som leder vidare till "About" och "Projects". En tydlig blå knapp som leder till kontaktsidan.
-För att förbättra användarupplevelsen la jag även till en gemensam navbar i toppen av alla sidor så att användaren enkelt kan navigera mellan sidorna utan att behöva använda broswerns bakåtknapp. 
+För att förbättra användarupplevelsen la jag även till en gemensam navbar i toppen av alla sidor så att användaren enkelt kan navigera mellan sidorna utan att behöva använda browserns bakåtknapp. 
 
 Bakgrundsbilden är fixerad medan innehållet scrollas. Det gör att detaljer i bilden inte stör upplevelsen då jag anser att bilden är detaljerad och kan upplevas störande vid rörelse.
 Ikonerna på förstasidan har hoover effekt med blå färg och en translateY animation vilket ger ett modernt och häftigt intryck.
@@ -18,7 +18,7 @@ Mina programmeringskunskaper presenteras med ikoner(PNG-bilder) istället för t
 Längst ner finns en sektion med kontaktinformation och en direktlänk till min LinkedIn profil. 
 
 ### Projects
-I projects sidan gar jag skapat ikonlänkar till mina två projekt som jag vill lyfta fram.
+I projects sidan har jag skapat ikonlänkar till mina två projekt som jag vill lyfta fram.
 Varje projekt innehåller en beskrivning samt bilder på teknologier som används under projektet.
 Layouten till projects sidan är framtagen så att det ska vara enkelt att lägga till fler projekt i framtiden.
 
@@ -33,7 +33,7 @@ Jag började med en enkel figma skiss för att strukturera layouten. Designen ut
 Fokuset var att använda flexbox och justify content för att centrera innehållet i hemsidans alla tabbar. 
 
 ### Responsivitet
-Fokuset var att prioritera minst enhet, jag valde Iphone 14 Pro Max med en maxbredd på 430px. Jag använde media queris för att:
+Fokuset var att prioritera minst en enhet, jag valde Iphone 14 Pro Max med en maxbredd på 430px. Jag använde media queris för att:
 Minska textstorlekar och padding.
 Anpassa navbarens placering och ikonernas storlek.
 Göra kontaktknappen och footer med kompakta,

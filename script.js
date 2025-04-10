@@ -1,8 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("userForm");
-  const name = document.getElementById("name");
-  const email = document.getElementById("email");
-  const message = document.getElementById("message");
   const messageOnSubmit= document.getElementById("messageOnSubmit")
 
     //displayar inte meddelanded innan submit
